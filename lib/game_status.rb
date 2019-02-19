@@ -54,7 +54,7 @@ def over?(board)
   end
 end
 
-def winner?(board)
+def winner (board)
   location = []
   location = won?(board)
   if board[location[0]] == "X"
