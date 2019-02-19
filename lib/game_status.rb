@@ -48,8 +48,8 @@ end
 
 def over?(board)
   if draw?(board)
-    return true
-  else
     return false
+  else
+    return true
   end
 end
