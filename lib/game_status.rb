@@ -59,9 +59,9 @@ def winner (board)
   location = won?(board)
   if board[location[0]] == "X"
     return "X"
-  elsif board[location[0]] == "O"
+  elsif location == false
+    return nil 
+  else 
     return "O"
-  else
-    return nil
   end
 end
