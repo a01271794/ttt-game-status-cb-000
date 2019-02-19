@@ -57,11 +57,11 @@ end
 def winner (board)
   location = []
   location = won?(board)
-  if board[location[0]] == "X"
+  if location == false
+    return nil
+  elsif board[location[0]] == "X"
     return "X"
-  elsif location == false
-    return nil 
-  else
+  elsif board[location[0]] == "O"
     return "O"
   end
 end
