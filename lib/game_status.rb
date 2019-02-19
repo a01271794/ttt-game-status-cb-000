@@ -5,3 +5,4 @@ end
 
 # Define your WIN_COMBINATIONS constant
 def WIN_COMBINATIONS
+end
