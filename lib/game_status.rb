@@ -33,3 +33,7 @@ def won?(board)
   }
   false
 end
+
+def draw?(board)
+
+end
