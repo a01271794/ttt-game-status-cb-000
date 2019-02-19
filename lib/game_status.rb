@@ -60,3 +60,4 @@ def winner?(board)
   if board[location[0]] == "X"
     return "X"
   end
+end
