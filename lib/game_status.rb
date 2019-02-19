@@ -61,7 +61,7 @@ def winner (board)
     return "X"
   elsif location == false
     return nil 
-  else 
+  else
     return "O"
   end
 end
