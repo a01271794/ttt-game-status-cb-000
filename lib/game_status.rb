@@ -59,5 +59,7 @@ def winner (board)
   location = won?(board)
   if board[location[0]] == "X"
     return "X"
+  else
+    return "O"
   end
 end
